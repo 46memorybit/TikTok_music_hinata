@@ -3,6 +3,7 @@ const { Client } = require("@notionhq/client");
 
 // ===== 対象音源URL（複数OK）=====
 const TARGET_URLS = [
+  "https://www.tiktok.com/music/クリフハンガー-7586969082273384449?_d=secCgYIASAHKAESPgo8vFLTaTVoleoC9DRkzHRlzCSb3eLp%2BHBy1nL75cjwPZOC9kFduErI9F3%2B5fgT87dmRVy0n6UI9HQTuJzlGgA%3D&_r=1&_svg=1&checksum=2d0eab5b6830759b3aaf0f29040e58d8f42375eaaa59a2be56b8606749e9b5fd&sec_user_id=MS4wLjABAAAAmn4YIqvdZgiW72FIuS-GqmVGOBqZ2QlZKHiUu3cq1dIrAO_DBb50PPfwP9a_K2FT&share_app_id=1180&share_link_id=576277FD-475C-455A-AB05-73F8CF661DB5&share_music_id=7586969082273384449&share_region=JP&sharer_language=ja&social_share_type=7&source=h5_t&timestamp=1767874068&tt_from=copy&u_code=ej2bfj6dic3m60&ug_btm=b2001%2Cb5171&user_id=7475276770129429520&utm_campaign=client_share&utm_medium=ios&utm_source=copy",
   "https://www.tiktok.com/music/アザトカワイイ-6866985955195095041?is_from_webapp=1&sender_device=pc",
   "https://www.tiktok.com/music/キュン-6671149648587000577?is_from_webapp=1&sender_device=pc",
   "https://www.tiktok.com/music/ドレミソラシド-6708510031265925890?is_from_webapp=1&sender_device=pc",
